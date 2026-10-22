@@ -204,23 +204,11 @@ input:focus-visible {
 .brand {
   display: flex;
   align-items: center;
-  gap: 8px;
 }
 .brand img {
-  width: 68px;
-  height: 68px;
+  width: 76px;
+  height: 76px;
   object-fit: contain;
-}
-.brand > span {
-  font-size: 0.84rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  line-height: 1.35;
-  color: var(--blue);
-}
-.brand > span > span {
-  font-size: 0.68rem;
-  letter-spacing: 0.07em;
 }
 .desktop-nav {
   display: flex;
@@ -1029,9 +1017,6 @@ footer {
   .desktop-nav a {
     font-size: 0.84rem;
   }
-  .brand > span {
-    display: none;
-  }
   .hero-grid {
     gap: 30px;
   }
@@ -1069,9 +1054,6 @@ footer {
   }
   .header-donate {
     margin-left: auto;
-  }
-  .brand > span {
-    display: block;
   }
   .header-inner {
     height: 85px;
@@ -1182,14 +1164,8 @@ footer {
     gap: 10px;
   }
   .brand img {
-    width: 54px;
-    height: 54px;
-  }
-  .brand > span {
-    font-size: 0.69rem;
-  }
-  .brand > span > span {
-    font-size: 0.55rem;
+    width: 62px;
+    height: 62px;
   }
   .header-donate {
     font-size: 0.65rem;
@@ -1566,9 +1542,6 @@ footer {
 @media (max-width: 359px) {
   .container {
     width: calc(100% - 32px);
-  }
-  .brand > span {
-    display: none;
   }
   .hero .eyebrow {
     font-size: 0.51rem;

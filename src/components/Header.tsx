@@ -64,14 +64,9 @@ export default function Header() {
           <img
             src="/assets/logo.webp"
             alt="Cuidado que Acolhe"
-            width="80"
-            height="80"
+            width="96"
+            height="96"
           />
-          <span>
-            CUIDADO
-            <br />
-            <span>QUE ACOLHE</span>
-          </span>
         </a>
         <nav className="desktop-nav" aria-label="Navegação principal">
           {navigation.map(([label, href]) => (

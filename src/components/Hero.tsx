@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="container hero-grid">
         <div className="hero-copy">
           <span className="eyebrow">
-            <span className="little-line" /> SOLIDARIEDADE EM CADA GESTO
+            <span className="little-line" /> CUIDADO QUE ACOLHE
           </span>
           <h1>
             Mais que fraldas.
