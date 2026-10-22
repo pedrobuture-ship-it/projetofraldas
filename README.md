@@ -29,4 +29,3 @@ Consulte `CONTEUDO-E-AUDITORIA.md` para as fontes, pendências e verificações.
 Os tempos e a curva de movimento estão nas variáveis `--motion-*` de `src/styles.css`. `useScrollReveal` usa um único IntersectionObserver para entradas discretas, uma vez por bloco. `usePresence` mantém menu e lightbox montados durante o fechamento. O sistema acompanha `prefers-reduced-motion`; a foto principal e o QR Code permanecem estáveis.
 
 O PIX atual usa a chave de e-mail autorizada pelo responsável. Para regenerar a imagem a partir do payload de `src/data.ts`, execute `node scripts/generate-pix.mjs`. O script confere a correspondência da chave e o CRC antes de gerar a imagem.
-
